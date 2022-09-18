@@ -4,6 +4,4 @@ class Order < ApplicationRecord
     has_many :foods, through: :order_foods
     belongs_to :customer
     belongs_to :address
-    belongs_to :city
-    belongs_to :genre
 end
