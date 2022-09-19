@@ -4,7 +4,7 @@ class Food < ApplicationRecord
     has_many :orders, through: :order_foods
     belongs_to :shop
     has_many :ChineseFoods
-    has_many :category
-    has_many :category
+    has_many :categories
+    #has_many :categor
 
 end
