@@ -4,5 +4,5 @@ class Shop < ApplicationRecord
     #has_many :genres
     #has_one :shop
     #has_and_belongs_to_many :genres
-    has_many :categories
+    #has_many :categories
 end

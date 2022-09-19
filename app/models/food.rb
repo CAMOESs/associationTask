@@ -3,8 +3,8 @@ class Food < ApplicationRecord
     has_many :order_foods
     has_many :orders, through: :order_foods
     belongs_to :shop
-    belongs_to :category
-    belongs_to :category
-    belongs_to :category
+    has_many :ChineseFoods
+    has_many :category
+    has_many :category
 
 end
