@@ -1,6 +1,6 @@
 class ChineseFood < ActiveRecord::Base
     
-    has_many :foods
+    has_one :food
     #belongs_to :food
     
 end
