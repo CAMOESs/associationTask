@@ -1,6 +1,6 @@
-class ChineseFood < ActiveRecord::Base
+class ChineseFood < Food
     
     #has_many :foods
-    has_one :shop
+    #has_one :shop
     
 end
